@@ -1,0 +1,98 @@
+
+.card {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  margin: 30px 0px;
+  text-align: center;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  box-shadow: 0 0 0 rgb(237, 237, 237);
+}
+
+div {
+  border: rgb(99, 89, 89);
+  margin: 0 auto;
+  padding: 2px;/* Internal space */
+  border-radius: 4px; /* Small radius */
+}
+
+#img-main {
+  width: 300px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23c9ccd5' fill-opacity='0.33'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background: ;
+  color: #93B5C6;
+  font-family: 'Raleway', serif;
+  font-weight: 0; /* if you want the light version */
+  line-height: 1;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #FFE3E3;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #E4D8DC;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: #C9CCD5;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+h2 {
+  color: #E4D8DC;
+  font-size: 29px;
+  font-weight: lighter;
+}
+
+h3 {
+  color: #C9CCD5;
+  font-size: 18px;
+  font-weight: lighter;
+  font-weight: 50px;
+}
+
+h4 {
+  color: #FFE3E3;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
