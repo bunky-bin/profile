@@ -24,6 +24,7 @@ div {
 #img-main {
   width: 300px;
   border-radius: 50%;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 28%);
 }
 
 body {
@@ -47,11 +48,12 @@ a:hover {
   color: #E4D8DC;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Raleway', sans-serif;
 }
 
 h1 {
+  font-family: 'Ramaraja', serif;
   color: #C9CCD5;
   font-size: 50px;
   font-weight: lighter;
@@ -67,13 +69,30 @@ h3 {
   color: #C9CCD5;
   font-size: 18px;
   font-weight: lighter;
-  font-weight: 50px;
+  line-height: 2;
 }
 
 h4 {
-  color: #FFE3E3;
-  font-size: 35px;
+  color: #C9CCD5;
+  font-size: 18px;
   font-weight: lighter;
+  line-height: 2;
+}
+
+h5 {
+  color: #C9CCD5;
+  font-size: 50px;
+  font-weight: lighter;
+  line-height: 1;
+}
+
+.bottom {
+  background-color: white;
+  padding: 0.5px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  margin: 30px 0px;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
@@ -96,3 +115,24 @@ h4 {
     width: 300px;
   }
 }
+
+button {
+  border: 1px dotted;
+  border-radius: 6px;
+  background-color: #E4D8DC;
+  padding: 4px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button:hover {background: #93B5C6;}
+
+#lakes {
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 /
+  30%);
+}
+
+\\\ stop
